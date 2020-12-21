@@ -20,14 +20,21 @@ available on all major OS.
 Below is the demo on how You can Start Using It
 
 <div align="center">
-  <p><b>\n Uploading a file \n </b></p>
+<br>
+  <p><b> Uploading a file </b></p>
     <img src="./assets/upload.gif" width="600">  
+<br>
 </div>
 
 
 
 <div align="center">
-  <p><b>\n Downloading a file \n </b></p>
+<br>
+  <p><b> Downloading a file </b></p>
    <img src="./assets/download.gif" width="600">  
+<br>
 </div>
 
+### To do Work
+
+ * implement MD5 
