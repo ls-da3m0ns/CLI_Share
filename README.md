@@ -21,13 +21,13 @@ Below is the demo on how You can Start Using It
 
 <div align="center">
   <p><b>Uploading a file </b></p>
-   ![Uploading a file GIF ](assets/upload.gif)
+   ![Uploading a file GIF ] (assets/upload.gif)
 </div>
 
 
 
 <div align="center">
   <p><b>Downloading a file </b></p>
-   ![Downloading a file GIF ](assets/download.gif)
+   ![Downloading a file GIF ] (assets/download.gif)
 </div>
 
