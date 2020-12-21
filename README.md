@@ -11,7 +11,7 @@ available on all major OS.
 
 ### What about safety of my DATA 
 
- * The generated token is hashified using md5 hashing algorithm an at no point we store your original token we just store you md5 has so its impossible for use to guess your token
+ * The generated token is hashified using md5 hashing algorithm an at no point we store your original token we just store your md5 hash so its impossible for use to guess your token
  * Your Files will be deleted automatically after 2 Hours from out server
  * We continue to Harden Our Servers Security over the time
 
