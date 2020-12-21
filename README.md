@@ -20,14 +20,14 @@ available on all major OS.
 Below is the demo on how You can Start Using It
 
 <div align="center">
-  <p><b>Uploading a file </b></p>
+  <p><b>\n Uploading a file \n </b></p>
     <img src="./assets/upload.gif" width="600">  
 </div>
 
 
 
 <div align="center">
-  <p><b>Downloading a file </b></p>
+  <p><b>\n Downloading a file \n </b></p>
    <img src="./assets/download.gif" width="600">  
 </div>
 
