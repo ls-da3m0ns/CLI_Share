@@ -9,4 +9,4 @@ def filename_generate(file_name):
      
 def generate_hashed_token(token):
     strtoken = str(token)
-    return hashlib.md5(strtoken.encode())
+    return str(hashlib.md5(strtoken.encode()).hexdigest())

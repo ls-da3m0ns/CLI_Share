@@ -25,7 +25,7 @@ async def main():
                 """
     return HTMLResponse(content=content)
 
-@app.post("/upload/")
+@app.post("/")
 async def upload_file_func(file: UploadFile = File(...), db: Session=Depends(get_db)):
     content = await file.read()
     info = handle_file(file,content)
@@ -33,7 +33,7 @@ async def upload_file_func(file: UploadFile = File(...), db: Session=Depends(get
     clishare_db.upload_file(db,info=info)
     return f'File_name: {info.file_name} Token: {info.token}'
 
-@app.get("/Download/")
+@app.get("/{token}")
 async def downlaod_file(token: int,db: Session=Depends(get_db)):
     print(token)
     info = clishare_db.get_file_bytoken(db,token)
