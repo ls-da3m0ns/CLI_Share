@@ -31,7 +31,7 @@ async def upload_file_func(file: UploadFile = File(...), db: Session=Depends(get
     info = handle_file(file,content)
     info = schemas.CLI_create_scheme(**info)
     clishare_db.upload_file(db,info=info)
-    return f'File_name: {info.file_name} Token: {info.token}'
+    return f'File_name: {info.file_name} Token: {info.token} '
 
 @app.get("/{token}")
 async def downlaod_file(token: int,db: Session=Depends(get_db)):
